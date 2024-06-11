@@ -30,3 +30,10 @@ Acima temos uma imagem mais completa mostrando a __tabela__ e a __barra de pesqu
 ### Menu ###
 ><img src="Imagens_Git/Livros1.png" alt="Menu" width="350" height="400"/>
 Esta é a primeira tela do sistema, nela terá 4 botões para o usuário escolher: botão __Livros__ que vai para a tela de listar livros para o usuário; botão __Login__ que vai para a tela de Login; botão __Sobre__ aonde o usuário poderá ver os desenvolvedores que desenvolveram o código e por último, o botão __Encerrar__ no qual encerra o sistema.
+### Listagem do Usuário ###
+><img src="Imagens_Git/Livros2.png" alt="Listagem do usuário" width="900" height="600"/>
+Nesta tela é aonde estão a tabela e a barra de pesquisa para o usuário. Aqui, além de todas as funcionalidades citadas anteriormente na tabela e na barra de pesquisa, o usuário terá o botão __Atualizar__ aonde ele pode estar atualizando os dados da tabela ou via _Timer_ que atualizará automaticamente a tabela após os 10 primeiros segundos, primeiro 1 minuto e primeiros 10 minutos.
+Na tela após selecionar um livro clicando nele na tabela, também temos o botão __Ver Mais__ que ao clicá-lo, será aberto uma tela aonde serão mostrados as informações desse livro (Abaixo nessa lista).
+### Informações do Livro ###
+><img src="Imagens_Git/Livros3.png" alt="Informações do Livro" width="900" height="600"/>
+Nesta tela, serão listados todos os dados do livro selecionado pelo usuário na tela anterior. Entre esses dados têmos o Nome do Livro, Nome do Autor, Categoria, Editora, Sinopse, Data de Publicação. Abaixo na tela têm um botão de __Voltar__ para voltar para a tela anterior.
