@@ -37,3 +37,13 @@ Na tela após selecionar um livro clicando nele na tabela, também temos o botã
 ### Informações do Livro ###
 ><img src="Imagens_Git/Livros3.png" alt="Informações do Livro" width="900" height="600"/>
 Nesta tela, serão listados todos os dados do livro selecionado pelo usuário na tela anterior. Entre esses dados têmos o Nome do Livro, Nome do Autor, Categoria, Editora, Sinopse, Data de Publicação. Abaixo na tela têm um botão de __Voltar__ para voltar para a tela anterior.
+### Sobre ###
+><img src="Imagens_Git/Livros11.png" alt="Informações do Livro" width="900" height="600"/>
+Nesta tela são mostrados o Foto dos Desenvolvedores além de seus nomes e RA da faculdade.
+### Login ###
+><img src="Imagens_Git/Livros4.png" alt="Informações do Livro" width="350" height="400"/>
+Nesta tela o usuário poderá fazer login como Administrador para poder adicionar, alterar ou excluir dados dos livros. Para acessar, no campo do usuário deve-se colocar "Admin" (seja com a letra A maiúscula ou minúscula) e no campo "Senha" colocar "123". Caso o usuário tenha colocado de forma correta, aparecerá uma mensagem confirmando o _login_, caso contrário aparecerá uma mensagem de _erro_ informando login incorreto.
+###  Listagem de Administrador ###
+><img src="Imagens_Git/Livros5.png" alt="Informações do Livro" width="900" height="600"/>
+Esta tela tem as mesmas funcionalidades da tabela de listagem citada anteriormente, suas diferenças são a adição de: botão de __Criar__ aonde o _administrador_ vai pra tela de criar livros; botão __Alterar__, nesse caso o _administrador_ precisa selecionar o livro que deseja alterar seus dados e após isso clicar nesse botão para ir a uma tela aonde poderá alterar os dados dos livros; botão __Excluir__ que segue o mesmo padrão do botão __Alterar__. O usuário deve selecionar o livro que deseja que seja deletado e por fim clicar no botão que pedirá uma confirmação para realizar a exclusão desse livro.
+No botão __Sair__, o sistema emitirá uma mensagem avisando que o usuário sairá da tela de Administrador e precisará fazer login novamente caso saia, então fica a escolha de sair ou ficar na tela para o usuário.
