@@ -1,0 +1,13 @@
+CREATE SCHEMA IF NOT EXISTS `Livroteca` DEFAULT CHARACTER SET utf8 ;
+USE `Livroteca` ; 
+CREATE TABLE IF NOT EXISTS `Livroteca`.`Livro` (
+  `idLivro` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(60) NOT NULL,
+  `categoria` VARCHAR(20) NOT NULL,
+  `autor` VARCHAR(45) NOT NULL,
+  `editora` VARCHAR(45) NOT NULL,
+  `sinopse` VARCHAR(300) NULL,
+  `dataPublicacao` DATE NOT NULL,
+  PRIMARY KEY (`idLivro`),
+  UNIQUE INDEX `idLivro_UNIQUE` (`idLivro` ASC) )
+ENGINE = InnoDB;
