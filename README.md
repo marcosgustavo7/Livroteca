@@ -39,7 +39,7 @@ Na tela após selecionar um livro clicando nele na tabela, também temos o botã
 ><img src="Imagens_Git/Livros3.png" alt="Informações do Livro" width="900" height="600"/>
 Nesta tela, serão listados todos os dados do livro selecionado pelo usuário na tela anterior. Entre esses dados têmos o Nome do Livro, Nome do Autor, Categoria, Editora, Sinopse, Data de Publicação. Abaixo na tela têm um botão de __Voltar__ para voltar para a tela anterior.
 ### Sobre ###
-><img src="Imagens_Git/Livros11.png" alt="Sobre" width="900" height="600"/>
+><img src="Imagens_Git/Livros14.jpeg" alt="Sobre" width="700" height="600"/>
 Nesta tela são mostrados o Foto dos Desenvolvedores além de seus nomes e RA da faculdade.
 ### Login ###
 ><img src="Imagens_Git/Livros4.png" alt="Login" width="350" height="400"/>
