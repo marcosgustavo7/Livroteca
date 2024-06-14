@@ -12,6 +12,7 @@ Este projeto foi feito a base de JAVA utilizando uma biblioteca de Java Swing no
 
 Além disso, o projeto ainda teve a utilização de Banco de Dados MySQL para gerar a tabela Livros aonde serão armazenados os dados dos livros do projeto. Na tabela Livro foram colocados os atributos: ID, Nome, Categoria, Autor, Editora, Sinopse e Data de Publicação, sendo o primeiro um atributo __chave__ conforme imagem abaixo do Modelo Conceitual.
 
+O sistema ainda tem uma documentação em "JAVADOC" em PDF conforme documentado pelos professores do trabalho na pasta de mesmo nome, caso queira dar uma olhada.
   ><img src="Imagens_Git/modeloconceitual.png" alt="Modelo Conceitual" width="400" height="400"/>
 
 E o Modelo Lógico abaixo: 
@@ -38,31 +39,33 @@ Na tela após selecionar um livro clicando nele na tabela, também temos o botã
 ><img src="Imagens_Git/Livros3.png" alt="Informações do Livro" width="900" height="600"/>
 Nesta tela, serão listados todos os dados do livro selecionado pelo usuário na tela anterior. Entre esses dados têmos o Nome do Livro, Nome do Autor, Categoria, Editora, Sinopse, Data de Publicação. Abaixo na tela têm um botão de __Voltar__ para voltar para a tela anterior.
 ### Sobre ###
-><img src="Imagens_Git/Livros11.png" alt="Informações do Livro" width="900" height="600"/>
+><img src="Imagens_Git/Livros11.png" alt="Sobre" width="900" height="600"/>
 Nesta tela são mostrados o Foto dos Desenvolvedores além de seus nomes e RA da faculdade.
 ### Login ###
-><img src="Imagens_Git/Livros4.png" alt="Informações do Livro" width="350" height="400"/>
+><img src="Imagens_Git/Livros4.png" alt="Login" width="350" height="400"/>
 Nesta tela o usuário poderá fazer login como Administrador para poder adicionar, alterar ou excluir dados dos livros. Para acessar, no campo do usuário deve-se colocar "Admin" (seja com a letra A maiúscula ou minúscula) e no campo "Senha" colocar "123". Caso o usuário tenha colocado de forma correta, aparecerá uma mensagem confirmando o _login_, caso contrário aparecerá uma mensagem de _erro_ informando login incorreto.
 ###  Listagem de Administrador ###
-><img src="Imagens_Git/Livros5.png" alt="Informações do Livro" width="900" height="600"/>
+><img src="Imagens_Git/Livros5.png" alt="Listagem de Administrador" width="900" height="600"/>
 Esta tela tem as mesmas funcionalidades da tabela de listagem citada anteriormente, suas diferenças são a adição de: botão de __Criar__ aonde o _administrador_ vai pra tela de criar livros; botão __Alterar__, nesse caso o _administrador_ precisa selecionar o livro que deseja alterar seus dados e após isso clicar nesse botão para ir a uma tela aonde poderá alterar os dados dos livros; botão __Excluir__ que segue o mesmo padrão do botão __Alterar__. O usuário deve selecionar o livro que deseja que seja deletado e por fim clicar no botão que pedirá uma confirmação para realizar a exclusão desse livro. Por último, no botão __Ver Mais__ tem a mesma função do Ver mais do usuário! É aberto uma tela aonde mostra as informações do livro selecionado como mostrado abaixo.
-><img src="Imagens_Git/Livros3.png" alt="Informações do Livro" width="900" height="600"/>
+><img src="Imagens_Git/Livros3.png" alt="Listagem Administrador" width="900" height="600"/>
 No botão __Sair__, o sistema emitirá uma mensagem avisando que o usuário sairá da tela de Administrador e precisará fazer login novamente caso saia, então fica a escolha de sair ou ficar na tela para o usuário.
 ### Exclusão de Livros ###
-><img src="Imagens_Git/Livros6.png" alt="Informações do Livro" width="400" height="150"/>
+><img src="Imagens_Git/Livros6.png" alt="Exclusão" width="400" height="150"/>
 Após selecionar o livro desejado e clicar no botão __Deletar__, o sistema mostra essa tela acima! Tela no qual pede confirmação do administrador se ele realmente deseja deletar o livro. Caso o administrador clique em __Cancelar__, nada será feito. Agora, caso o administrador clique em __Excluir__, o livro será deletado por completo.
 ### Alteração de Dados dos Livros ###
-><img src="Imagens_Git/Livros7.png" alt="Informações do Livro" width="900" height="600"/>
+><img src="Imagens_Git/Livros13.png" alt="Alteração" width="900" height="600"/>
 Após o administrador selecionar o livro desejado e clicar em __Alterar__, o sistema mostra a tela acima! Nesta tela serão mostrados todos os dados do livro selecionado, como: Nome do Livro, Nome do Autor, Categoria, Editora, Data de Publicação e Sinopse. Para alterar, basta o administrador clicar no campo que deseja alterar e depois clicar em __Alterar__! Agora, caso o administrador mude de idéia, basta clicar em __Voltar__ que quaisquer alterações serão canceladas.
 Obs: como alguns campos NÃO podem ficar vazios no banco de dados como o nome do livro, por exemplo; o sistema contornará a caixa de digitação com uma linha vermelha que sumirá apenas quando o administrador clicar em cima!
 Obs 2: Caso o administrador exceda o número de caracteres permitidos em uma caixa de digitação, exemplo: o nome do livro ultrapassar 60 caracteres, será emitido uma mensagem de erro pedindo para que o administrador reduza a quantidade de caracteres nessa caixa de digitação.
+Obs 3: A data é formatada para o formato brasileiro (dd/MM/AAAA) ao ser colocada no campo "Data de Publicação".
 ### Criação de Livros ###
-><img src="Imagens_Git/Livros8.png" alt="Informações do Livro" width="900" height="600"/>
+><img src="Imagens_Git/Livros8.png" alt="Criação" width="900" height="600"/>
 Nesta tela é aonde serão criados os livros. Aqui o Administrador coloca nome do Livro, nome do Autor, Categoria, Editora, Data de Publicação e Sinopse do livro, lembrando que este último é o único campo que pode ficar vazio. Caso os outros campos estejam vazios será emitido uma mensagem com erro pedindo para que o administrador adicione algum valor para o campo.
+A data é formatada para o formato brasileiro (dd/MM/AAAA) ao ser colocada no campo "Data de Publicação".
 Caso o administrador exceda o limite de caracteres em um campo, será retornado uma mensagem de erro pedindo para que apague alguns desses caracteres. Exemplo: se o Nome exceder 60 caracteres, será emitido essa mensagem.
 Após o administrador preencher todos os dados do livro, basta clicar em __Criar__ que se estiver tudo correto, o livro será criado. Caso mude de ideia, basta clicar em __Voltar__ que nenhum livro será criado.
 ### Deslogar como Administrador ###
-><img src="Imagens_Git/Livros10.png" alt="Informações do Livro" width="400" height="150"/>
+><img src="Imagens_Git/Livros10.png" alt="Deslogar" width="400" height="150"/>
 Caso o _administrador_ clique no botão __Sair__ na tela de Listagem como administrador, aparecerá uma caixa de diálogo pedindo uma confirmação do _administrador_ (mostrado acima) se ele têm certeza que quer deslogar e que precisará fazer login de novo para acessar essa tela novamente.
 ## Agradecimentos ##
 Gostaría de agradecer a todos vocês que leram até aqui e puderam ver um pouco desse projeto! Pretendo melhorá-lo com o tempo para alcançar níveis maiores de satisfação. Caso tenha gostado, não esquece de deixar aquela __ESTRELINHA__ no código para alcançar mais e mais gente :)
